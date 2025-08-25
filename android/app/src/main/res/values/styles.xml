@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window as soon as the process has started. -->
+    <!-- This theme is visible to the user while the Flutter UI initializes. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <!-- Theme applied to the Flutter Window after the Flutter UI initializes. -->
+    <!-- This theme continues to determine the Window background behind the Flutter UI. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+    <string name="facebook_app_id">1465801954733045</string>
+    <string name="fb_login_protocol_scheme">fb1465801954733045</string>
+    <string name="facebook_client_token">abcde12345fghij67890klmno</string>
+</resources>

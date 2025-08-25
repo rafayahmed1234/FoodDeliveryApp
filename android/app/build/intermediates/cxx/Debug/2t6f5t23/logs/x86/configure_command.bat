@@ -1,0 +1,20 @@
+@echo off
+"C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HC:\\Users\\Dell\\Desktop\\flutter_windows_3.32.8-stable\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\scripts" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=23" ^
+  "-DANDROID_PLATFORM=android-23" ^
+  "-DANDROID_ABI=x86" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=x86" ^
+  "-DANDROID_NDK=C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\Dell\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\Dell\\Desktop\\Rafay\\fooddeliveryapp\\fooddeliveryapp\\android\\app\\build\\intermediates\\cxx\\Debug\\2t6f5t23\\obj\\x86" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Users\\Dell\\Desktop\\Rafay\\fooddeliveryapp\\fooddeliveryapp\\android\\app\\build\\intermediates\\cxx\\Debug\\2t6f5t23\\obj\\x86" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-BC:\\Users\\Dell\\Desktop\\Rafay\\fooddeliveryapp\\fooddeliveryapp\\android\\app\\.cxx\\Debug\\2t6f5t23\\x86" ^
+  -GNinja ^
+  -Wno-dev ^
+  --no-warn-unused-cli

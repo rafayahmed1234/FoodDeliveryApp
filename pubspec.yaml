@@ -1,0 +1,141 @@
+name: fooddeliveryapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0' # Maine isko thora flexible kar diya hai
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.1.0
+  permission_handler: ^12.0.1
+  google_sign_in: ^6.2.1
+  provider: ^6.1.2
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.5
+  cloud_firestore: ^4.17.3
+  google_maps_flutter: ^2.5.0
+  intl: ^0.18.1
+  share_plus: ^7.2.2
+  flutter_paypal_payment: ^1.0.8
+  flutter_inappwebview: ^6.0.0
+  shared_preferences: ^2.2.2
+  firebase_messaging: ^14.7.19
+  flutter_local_notifications: ^17.1.2
+  card_scanner: ^1.0.2
+  flutter_facebook_auth: ^6.0.0
+
+
+
+  # ===== YEH DO PACKAGES ASAL MASLA THE =====
+  # Hum inko inke latest stable versions par rakhenge
+  # inappwebview ki line yahan se hata dein ya comment kar dein
+  # flutter_inappwebview: ^5.8.0
+
+# ===== YEH SECTION AAPKA MASLA 100% HAL KAREGA =====
+# Yeh Flutter ko kehta hai ke doosre packages ki sifarish ko ignore karo
+# aur hamesha inappwebview ka version 6.0.0 hi istemal karo.
+dependency_overrides:
+  flutter_inappwebview: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/Images/burger_item_1.png
+     - assets/Images/burger_item_2.png
+     - assets/Images/b3.png
+     - assets/Images/burgers.png
+     - assets/Images/burgerking.png
+     - assets/Images/burgerking1.png
+     - assets/Images/burgerking_card.png
+     - assets/Images/burgerking_img.png
+     - assets/Images/burgerking_logo.png
+     - assets/Images/cash.png
+     - assets/Images/cook_logo.png
+     - assets/Images/master_card.png
+     - assets/Images/diverse_sparkling_food.png
+     - assets/Images/double_bbq_cheese.png
+     - assets/Images/extreme_cheese.png
+     - assets/Images/fried_chicken_1.png
+     - assets/Images/fried_chicken_2.png
+     - assets/Images/hot_burger_combo.png
+     - assets/Images/kfc_card.png
+     - assets/Images/location1.png
+     - assets/Images/location2.png
+     - assets/Images/mcdonald.png
+     - assets/Images/payment_method.png
+     - assets/Images/paypal.png
+     - assets/Images/person_profile.png
+     - assets/Images/pizza.png
+     - assets/Images/restaurants.png
+     - assets/Images/sandwich.png
+     - assets/Images/shipping_orders.png
+     - assets/Images/starbucks.png
+     - assets/Images/starbucks_card.png
+     - assets/Images/starbucks_logo.png
+     - assets/Images/subway.png
+     - assets/Images/subway1.png
+     - assets/Images/subway1.png
+     - assets/Images/tacobell.png
+     - assets/Images/tacobell1.png
+     - assets/Images/visa_card.png
+     - assets/Images/facebook_logo.png
+     - assets/Images/google_logo.png
+     - assets/Images/drinks.png
+     - assets/Images/noodles.png
+     - assets/Images/tacos.png
+     - assets/Images/ice_cream.png
+     - assets/Images/salads.png
+     - assets/Images/subway_cover.png
+     - assets/Images/subway_logo.png
+     - assets/Images/tacobell_cover.png
+     - assets/Images/tacobell_logo.png
+     - assets/Images/kfc_logo.png
+     - assets/Images/avatar1.png
+     - assets/Images/avatar2.png
+     - assets/Images/avatar3.png
+     - assets/Images/avatar4.png
+     - assets/Images/avatar4.png
+     - assets/Images/review_img1.png
+     - assets/Images/review_img2.png
+     - assets/Images/review_img3.png
+     - assets/Images/review_img4.png
+     - assets/Images/review_img5.png
+     - assets/Images/chip.png
+     - assets/Images/gift.png
+     - assets/Images/location (2).png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
